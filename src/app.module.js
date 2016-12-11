@@ -7,7 +7,7 @@ import 'style!css!angular-material/angular-material.css';
 import mainModuleConfig from './app.module.config';
 import mainPageModule from './mainPage/mainPage.module';
 
-angular.module('roster-landing', [
+angular.module('app-seed', [
   uiRouter,
   ngMaterial,
   mainPageModule
@@ -15,4 +15,4 @@ angular.module('roster-landing', [
 .config(mainModuleConfig);
 
 angular
-  .bootstrap(document, ['roster-landing']);
+  .bootstrap(document, ['app-seed']);
