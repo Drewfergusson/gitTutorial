@@ -1,1 +1,1 @@
-#Landing Page for Roster AI
+#App Seed using Webpack
